@@ -276,7 +276,7 @@ The `slice()` method is used to copy out a portion of the array it is called on 
 >let arr1 = [1, 2, 3, 4];
 >let arr2 = arr1.slice(); //returns [1, 2, 3, 4]
 >```
->Even though `arr1` and `arr2` contain indentical values note that `arr1 == arr1` is false, because these are different array instances. Try slicing out only part of the array:
+>Even though `arr1` and `arr2` contain indentical values note that `arr1 == arr2` is false, because these are different array instances. Try slicing out only part of the array:
 >```javascript
 >let arr3 = arr1.slice(1,3); //returns [2, 3]
 >```
